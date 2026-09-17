@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="azul_primario">#2563EB</color>
-    <color name="cinza_fundo">#F4F6F8</color>
-    <color name="cinza_texto">#667085</color>
-    <color name="black">#FF000000</color>
+    <color name="primary">#2563EB</color>
+    <color name="background">#F4F6F8</color>
+    <color name="text_secondary">#667085</color>
+    <color name="border">#D0D5DD</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
 </resources>
