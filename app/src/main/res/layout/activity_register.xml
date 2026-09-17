@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login_title"
+            android:text="@string/register_title"
             android:textColor="@color/primary"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -25,14 +25,26 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:layout_marginBottom="28dp"
-            android:text="@string/login_subtitle"
+            android:text="@string/register_subtitle"
             android:textColor="@color/text_secondary"
             android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:autofillHints="name"
+            android:background="@drawable/bg_input"
+            android:hint="@string/hint_full_name"
+            android:inputType="textPersonName"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp" />
 
         <EditText
             android:id="@+id/emailInput"
             android:layout_width="match_parent"
             android:layout_height="52dp"
+            android:layout_marginTop="12dp"
             android:autofillHints="emailAddress"
             android:background="@drawable/bg_input"
             android:hint="@string/hint_email"
@@ -45,20 +57,32 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="12dp"
-            android:autofillHints="password"
+            android:autofillHints="newPassword"
             android:background="@drawable/bg_input"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
             android:paddingStart="14dp"
             android:paddingEnd="14dp" />
 
+        <EditText
+            android:id="@+id/confirmPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:autofillHints="newPassword"
+            android:background="@drawable/bg_input"
+            android:hint="@string/hint_confirm_password"
+            android:inputType="textPassword"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp" />
+
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/registerButton"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="22dp"
             android:background="@drawable/bg_button"
-            android:text="@string/action_login"
+            android:text="@string/action_register"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="16sp" />
@@ -71,12 +95,12 @@
             android:visibility="gone" />
 
         <TextView
-            android:id="@+id/registerLink"
+            android:id="@+id/loginLink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:padding="8dp"
-            android:text="@string/link_to_register"
+            android:text="@string/link_to_login"
             android:textColor="@color/primary"
             android:textSize="14sp" />
     </LinearLayout>
