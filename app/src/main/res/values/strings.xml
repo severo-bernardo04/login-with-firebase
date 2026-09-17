@@ -1,3 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FireBaseLogin</string>
+    <string name="app_name">Login Firebase</string>
+
+    <string name="titulo_login">Entrar</string>
+    <string name="subtitulo_login">Acesse sua conta para continuar</string>
+    <string name="titulo_cadastro">Criar conta</string>
+    <string name="subtitulo_cadastro">Preencha os dados abaixo</string>
+
+    <string name="hint_nome">Nome completo</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_confirmar_senha">Confirmar senha</string>
+
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_sair">Sair</string>
+
+    <string name="link_cadastro">Não tem conta? Cadastre-se</string>
+    <string name="link_login">Já tem conta? Faça login</string>
+    <string name="bem_vindo">Bem-vindo!</string>
 </resources>
